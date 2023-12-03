@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+}
+
+.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns:  repeat(5, 20%);
+    grid-template-rows: 15% 1fr 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+header{
+    display: grid;
+    grid-area: 1/1/2/6;
+    grid-template-columns:  20% 35% 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1;
+
+}
+
+.logo{
+    display: grid;
+    grid-area: 1/1/2/2;
+    justify-items: center;
+    align-items: center;
+}
+
+.search{
+    display: grid;
+    grid-area: 1/2/2/3;
+    border: none;
+    align-items: center;
+}
+
+nav{
+    display: grid;
+}
+
+ul{
+    display: grid;
+    gap: 1em;
+}
+
+li{
+    list-style: none;
+    color: rgb(7, 7, 57);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar1{
+    display: grid;
+    grid-area: 1/3/2/4;
+    align-items: center;
+}
+
+.navbar2{
+    display: grid;
+    grid-area: 1/4/2/5;
+    align-items: center;
+
+}
+
+.navbar3{
+    display: grid;
+    grid-area: 1/5/2/6;
+    align-items: center;
+}
+
+.navbar4{
+    display: grid;
+    grid-area: 1/6/2/7;
+    align-items: center;
+    gap: 1em;
+}
+
+.basket{
+    display: grid;
+    grid-area: 1/7/2/8;
+    align-items: center;
+    margin-left: 3em;
+}
+
+.person{
+    display: grid;
+    grid-area: 1/8/2/9;
+    align-items: center;
+    margin-left: 1em;
+}
+
+main{
+    display: grid;
+    gap: 1em;
+}
+
+.sale1{
+    display: grid;
+    grid-area: 2/2/3/4;
+    border-radius: 15px;
+    background: #BCE7F0;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: red;
+}
+
+.sale2{
+    display: grid;
+    grid-area: 3/2/4/4;
+    border-radius: 15px;
+    background: rgb(246, 201, 246);
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(7, 7, 57);
+}
+
+.girl1{
+    display: grid;
+    grid-area: 2/4/4/5;
+}
+
+.girl2{
+    display: grid;
+    grid-area: 2/5/4/6;
+}
+
+.girl3{
+    display: grid;
+    grid-area: 4/2/6/3;
+}
+
+.girl4{
+    display: grid;
+    grid-area: 4/3/6/4;
+}
+
+main img{
+    border-radius: 15px;
+}
+
+.section1{
+    display: grid;
+    grid-area: 4/4/5/6;
+    background: rgb(238, 239, 175);
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(7, 7, 57);
+}
+
+.section2{
+    display: grid;
+    grid-area: 5/4/6/6;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    background: rgb(204, 239, 175);
+    color: rgb(7, 7, 57);
+}
+
+aside{
+    display: grid;
+    grid-area: 2/1/6/2;
+    margin-left: 2em;
+    align-items: stretch;
+}
+
+.sidebar{
+    display: grid;
+    font-size: 1.5em;
+}
+
+.help{
+    display: grid;
+    align-items: end;
+    margin-bottom: 3em;
+}
